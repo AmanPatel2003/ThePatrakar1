@@ -69,7 +69,7 @@ export const Navebar = () => {
       {/* mobile menu */}
       {open ? (
         <div className=" ">
-          <div className=" ox-2 pt-2 pb-3 space-y-1  pl-[48%] ">
+          <div className=" ox-2 pt-2 pb-3 space-y-1  px-[46%] text-center ">
             {navlinks.map((link, index) => (
               <a
                 key={index}
