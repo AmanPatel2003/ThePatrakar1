@@ -62,7 +62,7 @@ const handeleMenu =()=>{
               onClick={handeleMenu}
             >
               <span className="sr-only">Opne main menu</span>
-              {open == true ? <FaTimes size={25} /> : <FaBars size={25}/>}
+              {open === true ? <FaTimes size={25} /> : <FaBars size={25}/>}
             </button>
           </div>
         </div>

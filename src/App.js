@@ -1,5 +1,5 @@
 import "./App.css";
-import { Header } from "./component/Header";
+// import { Header } from "./component/Header";
 import { Home } from "./component/Home";
 import { Footer } from "./component/Footer";
 import { Rajniti } from "./component/Rajniti";

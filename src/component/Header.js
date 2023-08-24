@@ -1,20 +1,6 @@
 import React from "react";
 import { FiMenu } from "react-icons/fi";
 
-const navlinks=[
-  {
-    link:"/",
-    title:"Home"
-  },
-  {
-    link:"/rajniti",
-    title:"Rajniti"
-  },
-  {
-    link:"/news",
-    title:"News"
-  }
-]
 
 
 export const Header = () => {
