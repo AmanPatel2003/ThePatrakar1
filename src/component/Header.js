@@ -4,18 +4,16 @@ import { FiMenu } from "react-icons/fi";
 export const Header = () => {
   return (
     <div className=" md:px-[1%] w-full  ">
-      <div className=" flex justify-between xs:justify-center sm:justify-center h-20 items-center ">
-        <div className="  ml-7">
-          <h4 className="font-bold text-1xl xs:hidden sm:hidden ">
-            Thusday,April 6,2023
-          </h4>
-          <p className=" xs:hidden sm:hidden ">Today's Paper</p>
+      <div className=" flex justify-between  sm:justify-center h-20 items-center ">
+        <div className="  ml-7 xs:hidden sm:hidden">
+          <h4 className="font-bold text-1xl  ">Thusday,April 6,2023</h4>
+          <p className=" ">Today's Paper</p>
         </div>
         <div className="text-4xl  relative right-10 sm:right-0 xs:right-0 sm:flex sm:justify-center font-semibold ">
-          <h1 className=" pr-7">ThePatrakar.in</h1>
+          <h1 className=" pr-7 float-left">ThePatrakar.in</h1>
         </div>
-        <div className="mr-7 xs:hidden sm:hidden">
-          <FiMenu size={40} className="hover:text-blue-500" />
+        <div className="mr-7 xs:mr-0  sm:float:right  ">
+          <FiMenu size={40} className="hover:text-blue-500 xs:float-right " />
         </div>
       </div>
       <hr />
@@ -24,7 +22,7 @@ export const Header = () => {
           <li className="mx-[13px] xs:mx-[1%] sm:mx-2 font-medium items-center  hover:mx-[9px]">
             <a
               target=""
-              className="hover:text-blue-400 hover:text-lg "
+              className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
               href="/rajniti"
             >
               Home
@@ -33,7 +31,7 @@ export const Header = () => {
           <li className="mx-[13px] xs:mx-[1%] sm:mx-2 font-medium  hover:mx-[9px]">
             <a
               target=""
-              className="hover:text-blue-400 hover:text-lg "
+              className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
               href="/news"
             >
               World
@@ -42,7 +40,7 @@ export const Header = () => {
           <li className="mx-[13px] xs:mx-[1%] sm:mx-2 font-medium  hover:mx-[9px]">
             <a
               target=""
-              className="hover:text-blue-400 hover:text-lg "
+              className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
               href="/"
             >
               Tech
@@ -56,7 +54,7 @@ export const Header = () => {
           <li className="mx-[13px] xs:mx-[1%] sm:mx-2 font-medium  hover:mx-[9px]">
             <a
               target=""
-              className="hover:text-blue-400 hover:text-lg "
+              className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
               href="/rajniti"
             >
               More
@@ -65,7 +63,7 @@ export const Header = () => {
           <li className="mx-[13px] xs:mx-[1%] sm:mx-2 font-medium  hover:mx-[9px]">
             <a
               target=""
-              className="hover:text-blue-400 hover:text-lg "
+              className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
               href="/news"
             >
               Follow
@@ -74,10 +72,10 @@ export const Header = () => {
           <li className="mx-[13px] xs:mx-[1%] sm:mx-2 font-medium  hover:mx-[9px]">
             <a
               target=""
-              className="hover:text-blue-400 hover:text-lg "
+              className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
               href="/contect"
             >
-              Contact_Us
+              Contact
             </a>
           </li>
         </ul>
