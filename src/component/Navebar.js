@@ -1,5 +1,5 @@
 // import React from "react";
-import React, {useState} from "react";
+import React, { useState } from "react";
 import { FaTimes } from "react-icons/fa";
 import { FaBars } from "react-icons/fa";
 
@@ -19,13 +19,12 @@ const navlinks = [
 ];
 
 export const Navebar = () => {
-const [open, setOpen] = useState(false)
+  const [open, setOpen] = useState(false);
 
-
-const handeleMenu =()=>{
+  const handeleMenu = () => {
     setOpen((prev) => !prev);
-    console.log(open)
-};
+    console.log(open);
+  };
 
   return (
     <div className="bg-gray-200">
@@ -57,12 +56,12 @@ const handeleMenu =()=>{
           {/* hamburger button */}
           <div className="mr-2 flex  ">
             <button
-              className="inline-flex items-center justify-centerp-2 text-gray-700 hover:text-white hover:bg-gray-700 "
+              className="inline-flex items-center justify-centerp-2 text-gray-700 hover:text-gray-500  "
               type="button"
               onClick={handeleMenu}
             >
               <span className="sr-only">Opne main menu</span>
-              {open === true ? <FaTimes size={25} /> : <FaBars size={25}/>}
+              {open === true ? <FaTimes size={25} /> : <FaBars size={25} />}
             </button>
           </div>
         </div>
