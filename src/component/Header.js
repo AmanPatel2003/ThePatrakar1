@@ -1,6 +1,22 @@
 import React from "react";
 import { FiMenu } from "react-icons/fi";
 
+const navlinks=[
+  {
+    link:"/",
+    title:"Home"
+  },
+  {
+    link:"/rajniti",
+    title:"Rajniti"
+  },
+  {
+    link:"/news",
+    title:"News"
+  }
+]
+
+
 export const Header = () => {
   return (
     <div className=" md:px-[1%] w-full  ">
@@ -10,7 +26,9 @@ export const Header = () => {
           <p className=" ">Today's Paper</p>
         </div>
         <div className="text-4xl  relative right-10 sm:right-0 xs:right-0 sm:flex sm:justify-center font-semibold ">
-          <h1 className=" pr-7 float-left xs:pr-0 xs:ml-2 sm:ml-2">ThePatrakar.in</h1>
+          <h1 className=" pr-7 float-left xs:pr-0 xs:ml-2 sm:ml-2">
+            ThePatrakar.in
+          </h1>
         </div>
         <div className="mr-7   sm:float:right xs:mr-2 sm:mr-2 ">
           <FiMenu size={40} className="hover:text-blue-500 xs:float-right " />

@@ -3,7 +3,7 @@ export const Comp = (props) => {
   return (
     <>
       <div className="   xs:flex-col sm:flex-col md:flex-col  lg:flex-col flex xl:justify-center  2xl:justify-center  ">
-        <div className=" xs:w-full sm:w-full md:w-full lg:w-full  w-[42%] mx-[1%] xs:mx-[0%]  md:mx-[0%] lg:px-[3%] lg:mb-[2%] xs:mb-[3%] ">
+        <div className=" xs:w-full sm:w-full md:w-full lg:w-full  w-[42%] mx-[1%] xs:mx-[0%] sm:mx-[0%] md:mx-[0%] lg:px-[3%] lg:mb-[2%] xs:mb-[3%] ">
           <a
             className="bg-slate-700 text-gray-200 text-xl p-1 font-bold rounded"
             
