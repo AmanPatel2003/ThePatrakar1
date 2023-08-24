@@ -10,9 +10,9 @@ export const Header = () => {
           <p className=" ">Today's Paper</p>
         </div>
         <div className="text-4xl  relative right-10 sm:right-0 xs:right-0 sm:flex sm:justify-center font-semibold ">
-          <h1 className=" pr-7 float-left">ThePatrakar.in</h1>
+          <h1 className=" pr-7 float-left xs:pr-0 xs:ml-2 sm:ml-2">ThePatrakar.in</h1>
         </div>
-        <div className="mr-7 xs:mr-0  sm:float:right  ">
+        <div className="mr-7   sm:float:right xs:mr-2 sm:mr-2 ">
           <FiMenu size={40} className="hover:text-blue-500 xs:float-right " />
         </div>
       </div>
