@@ -133,10 +133,10 @@ export const News_Page = () => {
             <p className="ml-2 ">
               Narayan Bhui is the founder of <b>ThePatrakar.in</b>
             </p>
-            <p className="ml-2 ">
+            <p className="ml-2 xs:hidden hidden ">
               He has 95 year's old but he naver give up
             </p>
-            <p className="ml-2 ">
+            <p className="ml-2  xs:hidden sm:hidden">
               He is the ex major of indian army
             </p>
           </div>

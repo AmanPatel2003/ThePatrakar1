@@ -55,7 +55,7 @@ const handeleMenu =()=>{
             </div>
           </div> */}
           {/* hamburger button */}
-          <div className="mr-2 flex md:hidden ">
+          <div className="mr-2 flex  ">
             <button
               className="inline-flex items-center justify-centerp-2 text-gray-700 hover:text-white hover:bg-gray-700 "
               type="button"
@@ -69,8 +69,8 @@ const handeleMenu =()=>{
       </div>
       {/* mobile menu */}
       {open ? (
-        <div className="md:hidden ">
-          <div className=" ox-2 pt-2 pb-3 space-y-1 sm:px-3 ">
+        <div className=" ">
+          <div className=" ox-2 pt-2 pb-3 space-y-1  pl-[48%] ">
             {navlinks.map((link, index) => (
               <a
                 key={index}

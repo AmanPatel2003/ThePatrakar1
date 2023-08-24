@@ -19,8 +19,8 @@ export const Footer = () => {
           </button>
         </section>
         <section className="flex justify-center items-center xs:flex-col xs:py-[2%]  xs:justify-center h-24">
-          <h1 className="font-bold  text-gray-300 xs:py-1">FOLLOW US ON :</h1>
-          <div className="flex xs:mr-[2%]">
+          <h1 className="font-bold  text-gray-300 xs:pb-3 ">FOLLOW US ON :</h1>
+          <div className="flex xs:mr-[2%] xs:pb-3">
             <BsWhatsapp size={30} className="xs:mx-1 mx-3 text-gray-200" />
             <BsFacebook size={30} className="xs:mx-1 mx-3 text-gray-200" />
             <AiFillTwitterCircle
