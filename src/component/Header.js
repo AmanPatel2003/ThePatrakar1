@@ -9,7 +9,7 @@ export const Header = () => {
 
   const handeleMenu = () => {
     setopen((prev) => !prev);
-    console.log(open);
+    // console.log(open);
   };
 
  
