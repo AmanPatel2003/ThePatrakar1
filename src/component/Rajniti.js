@@ -8,17 +8,22 @@ export const Rajniti = () => {
     <div className="">
       <div className="flex mt-6  ">
         <div className="w-[68%]  xs:w-[100%] sm:w-[100%] md:w-[100%] px-5 xs:px-[1%] sm:px-[1%] md:px-[1%] border-r-2 ">
-          <p className="my-2">
-            <a href="/" className="hover:text-blue-500 mr-[2px]">
-              <u>Home</u>/
-            </a>
-            World/राजनीति
-          </p>
-          <div className="flex justify-between items-center py-5">
+          <div className="flex justify-between my-[3%]">
+            <p className="my-2">
+              <a href="/" className="hover:text-blue-500 mr-[2px]">
+                Home/
+              </a>
+              World/राजनीति
+            </p>
             <div className="text-4xl xs:text-2xl sm:text-3xl md:text-3xl   font-medium text-gray-800">
               राजनीति
             </div>
-            <div className="w-[40%]">
+          </div>
+          {/* <div className="flex justify-between items-center py-5">
+            <div className="text-4xl xs:text-2xl sm:text-3xl md:text-3xl   font-medium text-gray-800">
+              राजनीति
+            </div>
+            <div className="w-[40%] xs:hidden sm:hidden">
               <div className="border-2 h-7 rounded-xl text-center flex ">
                 <div className="w-[10%] xs:w-[20%] sm:w-[20%] md:w-[20%] ">
                   <BsSearch className="ml-3 mt-1" />
@@ -29,8 +34,8 @@ export const Rajniti = () => {
                 />
               </div>
             </div>
-          </div>
-          <hr className="h-0.5 bg-gray-700  mb-9 " />
+          </div> */}
+          <hr className="h-0.5 bg-gray-700  mb-9 xs:hidden sm:hidden " />
           <div className=" flex ">
             <div className="     border-gray-400">
               <div className="">

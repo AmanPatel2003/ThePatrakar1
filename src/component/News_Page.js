@@ -16,10 +16,10 @@ export const News_Page = () => {
           <div className="2xl:px-[20%] xl:px-[20%] lg:px-[15%] md:px-[12%] px-[10%] py-10 xs:py-[5%] ">
             <p className="my-[2%] xs:my-[3%] sm:my-[3%]">
               <a href="/" className="mr-1 hover:text-blue-500">
-                <u>Home</u>/
+                Home/
               </a>
               <a href="/rajniti" className="hover:text-blue-500">
-                <u>Tech</u>/
+              Tech/
               </a>
             </p>
             <div className="flex xs:my-[3%]">

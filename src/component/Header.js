@@ -1,9 +1,19 @@
-import React from "react";
+import React, { useState } from "react";
 import { FiMenu } from "react-icons/fi";
-
-
+import { Comp2 } from "./Comp2";
+import { FaTimes } from "react-icons/fa";
+import { FaBars } from "react-icons/fa";
 
 export const Header = () => {
+  const [open, setopen] = useState(false);
+
+  const handeleMenu = () => {
+    setopen((prev) => !prev);
+    console.log(open);
+  };
+
+ 
+
   return (
     <div className=" md:px-[1%] w-full  ">
       <div className=" flex justify-between  sm:justify-center h-20 items-center ">
@@ -12,12 +22,20 @@ export const Header = () => {
           <p className=" ">Today's Paper</p>
         </div>
         <div className="text-4xl  relative right-10 sm:right-0 xs:right-0 sm:flex sm:justify-center font-semibold ">
-          <h1 className=" pr-7 float-left xs:pr-0 xs:ml-2 sm:ml-2">
+          <a href="/" className=" pr-7 float-left xs:pr-0 xs:ml-2 sm:ml-2">
             ThePatrakar.in
-          </h1>
+          </a>
         </div>
-        <div className="mr-7   sm:float:right xs:mr-2 sm:mr-2 ">
-          <FiMenu size={40} className="hover:text-blue-500 xs:float-right " />
+        
+        <div className="mr-2 flex  ">
+          <button
+            className="inline-flex items-center justify-centerp-2 text-gray-700 hover:text-gray-500  "
+            type="button"
+            onClick={handeleMenu}
+          >
+            <span className="sr-only">Opne main menu</span>
+            {open === true ? <FaTimes size={25} /> : <FaBars size={25} />}
+          </button>
         </div>
       </div>
       <hr />
@@ -27,7 +45,7 @@ export const Header = () => {
             <a
               target=""
               className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
-              href="/rajniti"
+              href="/"
             >
               Home
             </a>
@@ -36,7 +54,7 @@ export const Header = () => {
             <a
               target=""
               className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
-              href="/news"
+              href="/rajniti"
             >
               World
             </a>
@@ -45,13 +63,14 @@ export const Header = () => {
             <a
               target=""
               className="hover:text-blue-400 hover:text-lg xs:text-sm sm:text-sm "
-              href="/"
+              href="/news"
             >
               Tech
             </a>
           </li>
           <li className="mx-[13px] xs:mx-[1%] sm:mx-2 font-medium  hover:mx-[9px]">
-            <a className="hover:text-blue-400 hover:text-lg " href="/">
+            <a className="hover:text-blue-400 hover:text-lg " href="/
+            ">
               Lifestyle
             </a>
           </li>
@@ -85,6 +104,9 @@ export const Header = () => {
         </ul>
       </div>
       <hr />
+     
+
+      <div className="2xl:hidden xl:hidden lg:hidden">{open ? <Comp2 /> : null}</div>
     </div>
   );
 };

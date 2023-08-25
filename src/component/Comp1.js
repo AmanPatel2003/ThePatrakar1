@@ -5,7 +5,7 @@ import { BsSearch } from "react-icons/bs";
 export const Comp1 = () => {
   return (
     <div className=" p-6 ">
-      <div className="border-2 h-7 rounded-xl text-center flex w-[90%] ">
+      <div className="border-2 h-7 rounded-xl text-center flex w-[100%] ">
         <div className="xs:w-[5%] ">
           <BsSearch className="ml-3 mt-1" />
         </div>
