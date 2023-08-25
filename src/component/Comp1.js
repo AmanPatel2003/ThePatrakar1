@@ -18,7 +18,7 @@ export const Comp1 = () => {
         </button>
       </div>
       <div className="mt-6">
-        <img className="" src="/img/mg12.jpg" alt="" />
+        <img className="h-[100%] w-[100%]" src="/img/mg12.jpg" alt="" />
       </div>
       <h1 className="m-3 text-2xl lg:text-xl text-gray-700">
         6 अप्रैल को भाजपा का स्थापना दिवस; प्रधानमंत्री मोदी करेंगे संबोधित
@@ -33,7 +33,7 @@ export const Comp1 = () => {
       <div className="container flex mt-5 border-b lg:flex-col ">
         <div className=" pr-3 w-[50%] lg:w-[100%] mb-4">
           <div className="">
-            <img src="/img/img1.jpg" alt="" />
+            <img className='w-[100%] h-100%]' src="/img/img1.jpg" alt="" />
           </div>
           <div className=" lg:w-[100%] lg:my-[3%]">
             <h1 className="lg:font-semibold lg:my-[1%] text-gray-700">

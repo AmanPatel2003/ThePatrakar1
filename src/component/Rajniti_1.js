@@ -20,7 +20,7 @@ export const Rajniti_1 = (props) => {
         </a>
       </div>
       <div className=" w-[55%] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xs:mt-2 sm:mt-3 md:mt-5 lg:mt-5 xs:mx-0 sm:mx-0 md:mx-0 lg:mx-0">
-        <img className="" src={props.img} alt="" />
+        <img className="h-[100%] w-[100%]" src={props.img} alt="" />
       </div>
     </div>
   );

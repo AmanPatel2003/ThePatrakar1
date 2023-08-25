@@ -26,7 +26,7 @@ export const Comp = (props) => {
           </a>
         </div>
         <div className=" xs:w-full  sm:w-full md:w-full lg:w-full w-[52%]    lg:px-[3%]">
-          <img className="" src={props.img} alt="" />
+          <img className="w-[100%] h-[100%]" src={props.img} alt="" />
         </div>
       </div>
     </>
