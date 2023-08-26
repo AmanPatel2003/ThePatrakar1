@@ -41,7 +41,7 @@ export const Rajniti = () => {
               <div className="">
                 <Rajniti_1
                   btn="कानून व्यवस्था"
-                  img="/img/bg3.jpg"
+                  img="/img/bg3.webp"
                   heading="अगले हफ्ते छत्तीसगढ़ आ सकते हैं पीएम 
 मोदी, शुक्रवार को आएंगे ओम माथुर"
                   paira="रायपुर, चुनावी वर्ष में भाजपा के केंद्रीय 
@@ -56,7 +56,7 @@ export const Rajniti = () => {
               <div className="">
                 <Rajniti_1
                   btn="राजनीति"
-                  img="/img/bg3.jpg"
+                  img="/img/bg3.webp"
                   heading="चार साल बाद भी पीएम मोदी से नहीं 
 मिल पाए भाजपा विधायक,अब केंद्रीय
 मंत्रियों से मुलाकात का मांगा समय"
@@ -71,7 +71,7 @@ export const Rajniti = () => {
               <div className="">
                 <Rajniti_1
                   btn="रायपुर"
-                  img="/img/bg3.jpg"
+                  img="/img/bg3.webp"
                   heading="भाजपा स्थापना दिवस पर कार्यकर्ताओं
  का सम्मान"
                   paira="रायपुर, भारतीय जनता पार्टी छह अप्रैल की
@@ -85,7 +85,7 @@ export const Rajniti = () => {
               <div className="">
                 <Rajniti_1
                   btn="राजनीति"
-                  img="/img/bg3.jpg"
+                  img="/img/bg3.webp"
                   heading="12 अप्रैल को बस्तर आएंगी प्रियंका गांधी;
 आदिवासी महिलाओं से करेंगी बात"
                   paira="रायपुर, नई दिल्ली में कांग्रेस अध्यक्ष

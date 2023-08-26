@@ -12,7 +12,7 @@ export const Home = () => {
             <Comp
               path="/news"
               btn="कानून व्यवस्था"
-              img="/img/mg12.jpg"
+              img="/img/mg12.webp"
               heading="डिजिटल साइन करने महिला पटवारी 
 ने मांगी रिश्वत; एसडीएम ने 
 शुरु की जांच"
@@ -32,7 +32,7 @@ export const Home = () => {
             <Comp
             path="/rajniti"
               btn="राजनीति"
-              img="/img/mg2.jpg"
+              img="/img/mg2.webp"
               heading="राहुल गाधी के समर्थन में रायपुर-
 बिलासपुर राष्ट्रीय राजमार्ग पर प्रदर्शन
 -चक्का जाम; 600 कार्यकर्ता गिरफ्तार"
@@ -51,7 +51,7 @@ export const Home = () => {
             <Comp
             path="/news"
               btn="राज्यशासन"
-              img="/img/mg12.jpg"
+              img="/img/mg12.webp"
               heading="छत्तीसगढ प्रेम; राजस्थान के चिकित्सकों-
 कर्मचारियों ने एम्स में दिया 103 यूनिट रक्त"
               paira="रायपुर, खिल भारतीय आयुर्विज्ञान संस्थान में
@@ -66,7 +66,7 @@ export const Home = () => {
             <Comp
             path="/rajniti"
               btn="राजनीति"
-              img="/img/logo4.jpg"
+              img="/img/logo4.webp"
               heading="6 अप्रैल को भाजपा का स्थापना दिवस;
 प्रधानमंत्री मोदी करेंगे संबोधित"
               paira="रायपुर, भारतीय जनता पार्टी के स्थापना
