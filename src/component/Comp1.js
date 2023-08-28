@@ -11,7 +11,7 @@ export const Comp1 = () => {
           Must Read
         </button>
       </div>
-      <div className="mt-6 h-[300px]">
+      <div className="mt-6 lg:h-[250px] xl:h-[270px]">
         <img className="h-[100%] w-[100%]" src="/img/mg12.webp" alt="" />
       </div>
       <h1 className="m-3 text-2xl lg:text-xl text-gray-700">

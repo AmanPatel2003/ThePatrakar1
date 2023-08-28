@@ -10,7 +10,9 @@ export const Rajniti_1 = (props) => {
         >
           {props.btn}
         </a>
-        <p className="text-2xl mt-4 font-semibold text-gray-700">{props.heading}</p>
+        <p className="text-2xl mt-4 font-semibold text-gray-700">
+          {props.heading}
+        </p>
         <p className="text-lg  my-4 text-gray-500">{props.paira}</p>
         <a
           className="bg-slate-700  text-sm  p-2 font-bold text-gray-200 "
@@ -19,7 +21,7 @@ export const Rajniti_1 = (props) => {
           Read More
         </a>
       </div>
-      <div className=" w-[55%] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xs:mt-2 sm:mt-3 md:mt-5 lg:mt-5 xs:mx-0 sm:mx-0 md:mx-0 lg:mx-0">
+      <div className=" w-[55%] xs:w-[100%] sm:w-[100%] md:w-[100%] lg:w-[100%] xs:h-[300px] sm:h-[380px] md:h-[450px] lg:h-[400px] xl:h-[350px] xs:mt-2 sm:mt-3 md:mt-5 lg:mt-5 xs:mx-0 sm:mx-0 md:mx-0 lg:mx-0">
         <img className="h-[100%] w-[100%]" src={props.img} alt="" />
       </div>
     </div>
