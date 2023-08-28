@@ -12,9 +12,11 @@ export const Contect = () => {
           Let's create something togather
         </p>
       </div>
-      <div className="flex-col  w-[45%] lg:w-[50%] md:w-[100%]  sm:w-[100%] xs:w-[100%] rounded-md  justify-center bg-white  py-[3%]">
-        <div className="w-[80%] xs:w-[90%] text-center flex-col mx-[5%]">
-          <h1 className="text-2xl mb-[5%] xs:my-[6%] font-semibold">CONTACT US</h1>
+      <div className="flex-col  w-[45%] lg:w-[50%] md:w-[100%]  sm:w-[100%] xs:w-[100%] rounded-md  justify-center bg-white  py-[3%] xs:my-[10%]">
+        <div className="w-[80%] xs:w-[90%] text-center flex-col mx-[5%]  ">
+          <h1 className="text-2xl mb-[5%] xs:my-[6%] font-semibold">
+            CONTACT US
+          </h1>
 
           <div className="w-full flex justify-center my-[3%] xs:my-[5%]">
             <input
@@ -86,7 +88,7 @@ export const Contect = () => {
             ></textarea>
           </div>
           <div className="w-full mb-[3%] mt-[6%]">
-            <button className=" border border-gray-300 float-left bg-gray-100 w-[30%] rounded text-gray-400  py-[1%] px-[2%]  hover:border-gray-800 hover:font-semibold">
+            <button className=" border border-gray-300 float-left bg-gray-100 w-[30%] rounded text-gray-400  py-[1%] px-[2%] xs:mb-[4%]  hover:border-gray-800 hover:font-semibold">
               SUBMIT
             </button>
           </div>
