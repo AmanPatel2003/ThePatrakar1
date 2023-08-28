@@ -12,38 +12,38 @@ export const Contect = () => {
           Let's create something togather
         </p>
       </div>
-      <div className="flex-col  w-[45%] lg:w-[50%] md:w-[100%]  sm:w-[100%] xs:w-[100%] rounded-md  justify-center bg-white  py-[3%] xs:my-[10%]">
+      <div className="flex-col  w-[45%] lg:w-[50%] md:w-[100%]  sm:w-[100%] xs:w-[100%] rounded-md  justify-center bg-white  py-[3%] xs:mb-[10%] xs:mt-[%]">
         <div className="w-[80%] xs:w-[90%] text-center flex-col mx-[5%]  ">
-          <h1 className="text-2xl mb-[5%] xs:my-[6%] font-semibold">
+          <h1 className="text-2xl mb-[5%] xs:my-[6%] font-semibold xs:text-3xl">
             CONTACT US
           </h1>
 
-          <div className="w-full flex justify-center my-[3%] xs:my-[5%]">
+          <div className="w-full flex justify-center my-[3%] xs:my-[6%]">
             <input
               type="text"
-              className="  border border-gray-300 rounded-md w-full bg-gray-100 py-[1%] px-[2%] hover:border-gray-800 hover:font-semibold"
+              className="  border border-gray-300 rounded-md w-full bg-gray-100 py-[1%] px-[2%] hover:border-gray-800 hover:font-semibold xs:text-2xl"
               placeholder="Enter your name"
             />
           </div>
-          <div className="w-full flex justify-center my-[3%] xs:my-[5%]">
+          <div className="w-full flex justify-center my-[3%] xs:my-[6%]">
             <input
               type="email"
-              className=" border border-gray-300  rounded-md w-full bg-gray-100 py-[1%] px-[2%] hover:border-gray-800 hover:font-semibold"
+              className=" border border-gray-300  rounded-md w-full bg-gray-100 py-[1%] px-[2%] hover:border-gray-800 hover:font-semibold xs:text-2xl"
               placeholder="Email "
             />
           </div>
-          <div className=" w-full flex justify-center  my-[3%] xs:my-[5%]">
+          <div className=" w-full flex justify-center  my-[3%] xs:my-[6%]">
             <input
               type="password"
-              className="border border-gray-300 rounded-md w-full  bg-gray-100 py-[1%] px-[2%] hover:border-gray-800 hover:font-semibold"
+              className="border border-gray-300 rounded-md w-full  bg-gray-100 py-[1%] px-[2%] hover:border-gray-800 hover:font-semibold xs:text-2xl"
               placeholder="Password"
             />
           </div>
-          <div className="w-full flex justify-center my-[3%] xs:my-[5%]">
+          <div className="w-full flex justify-center my-[3%] xs:my-[6%]">
             <select
               name=""
               id=""
-              className="w-full border   hover:border-gray-800 hover:font-semibold  text-gray-400  border-gray-300 rounded-md bg-gray-100 py-[1%] px-[2%]  "
+              className="w-full border   hover:border-gray-800 hover:font-semibold  text-gray-400  border-gray-300 rounded-md bg-gray-100 py-[1%] px-[2%] xs:text-2xl  "
             >
               <option value="" className="text-gray-300 " selected hidden>
                 options
@@ -77,7 +77,7 @@ export const Contect = () => {
               </option>
             </select>
           </div>
-          <div className=" w-full flex justify-center   my-[3%] xs:my-[5%]">
+          <div className=" w-full flex justify-center   my-[3%] xs:my-[6%] xs:text-2xl">
             <textarea
               name=""
               placeholder="Enter your query here"
@@ -87,7 +87,7 @@ export const Contect = () => {
               className="w-full border hover:font-semibold  hover:border-gray-800 rounded-md bg-gray-100 py-[1%] px-[2%]"
             ></textarea>
           </div>
-          <div className="w-full mb-[3%] mt-[6%]">
+          <div className="w-full mb-[3%] mt-[6%] xs:text-2xl">
             <button className=" border border-gray-300 float-left bg-gray-100 w-[30%] rounded text-gray-400  py-[1%] px-[2%] xs:mb-[4%]  hover:border-gray-800 hover:font-semibold">
               SUBMIT
             </button>
