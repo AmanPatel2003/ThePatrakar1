@@ -1,7 +1,7 @@
 import React from "react";
 import { Rajniti_1 } from "./Rajniti_1";
 import { Comp2 } from "./Comp2";
-import { BsSearch } from "react-icons/bs";
+// import { BsSearch } from "react-icons/bs";
 
 export const Rajniti = () => {
   return (

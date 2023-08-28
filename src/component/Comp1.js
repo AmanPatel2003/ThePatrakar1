@@ -1,23 +1,17 @@
-import React from 'react'
+import React from "react";
 
 import { BsSearch } from "react-icons/bs";
 
 export const Comp1 = () => {
   return (
     <div className=" p-6 ">
-      <div className="border-2 h-7 rounded-xl text-center flex w-[100%] ">
-        <div className="xs:w-[5%] ">
-          <BsSearch className="ml-3 mt-1" />
-        </div>
-        <input type="search" className="w-[85%] focus:outline-none" />
-      </div>
-      <div className="flex justify-between  mt-8">
-        <p className="mt-3 text-gray-700">राजनीति</p>
+      <div className="flex justify-between mt-[1%]  ">
+        <p className=" text-[160%]">राजनीति</p>
         <button className="h-9 w-24 bg-slate-700 text-sm font-bold text-gray-200">
           Must Read
         </button>
       </div>
-      <div className="mt-6">
+      <div className="mt-6 h-[300px]">
         <img className="h-[100%] w-[100%]" src="/img/mg12.webp" alt="" />
       </div>
       <h1 className="m-3 text-2xl lg:text-xl text-gray-700">
@@ -33,9 +27,9 @@ export const Comp1 = () => {
       <div className="container flex mt-5 border-b lg:flex-col ">
         <div className=" pr-3 w-[50%] lg:w-[100%] mb-4">
           <div className="">
-            <img className='w-[100%] h-100%]' src="/img/img1.webp" alt="" />
+            <img className="w-full h-full" src="/img/img1.webp" alt="#" />
           </div>
-          <div className=" lg:w-[100%] lg:my-[3%]">
+          <div className=" lg:w-full lg:my-[3%]">
             <h1 className="lg:font-semibold lg:my-[1%] text-gray-700">
               रायपुर
             </h1>
@@ -44,7 +38,7 @@ export const Comp1 = () => {
             </p>
           </div>
         </div>
-        <div className=" pl-3 w-[50%] lg:w-[100%] border-l mb-4">
+        <div className=" pl-3 w-[50%] lg:w-full border-l mb-4">
           <div className="">
             <img src="/img/img1.webp" alt="" />
           </div>
@@ -61,4 +55,4 @@ export const Comp1 = () => {
       </div>
     </div>
   );
-}
+};
